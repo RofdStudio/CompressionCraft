@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "cn.rofdstudio.zipmc.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+      "ZipMcMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

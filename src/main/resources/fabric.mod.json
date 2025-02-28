@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "zipmc",
+	"version": "${version}",
+	"name": "压缩工艺",
+	"description": "该mod添加了一些原版物品的压缩版本，使压缩物品对应的原版物品更方便存储，为原版游戏增强了部分可玩性",
+	"authors": [
+		"Nihility3433"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/zipmc/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cn.rofdstudio.zipmc.ZipMc"
+		],
+		"client": [
+			"cn.rofdstudio.zipmc.ZipMcClient"
+		],
+		"fabric-datagen": [
+			"cn.rofdstudio.zipmc.ZipMcDataGenerator"
+		]
+	},
+	"mixins": [
+		"zipmc.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
