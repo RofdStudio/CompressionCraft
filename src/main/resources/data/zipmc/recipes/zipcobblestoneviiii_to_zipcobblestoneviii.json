@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zipmc:zip_cobblestone_viiii"
+    }
+  ],
+  "result": {
+    "item": "zipmc:zip_cobblestone_viii",
+    "count": 9
+  }
+}

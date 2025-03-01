@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "categroy": "building",
+  "pattern":[
+    "###",
+    "###",
+    "###"
+  ] ,
+  "key": {
+    "#": {
+      "item": "zipmc:zip_stone_vii"
+    }
+  },
+  "result": {
+    "item": "zipmc:zip_stone_viii"
+  }
+}

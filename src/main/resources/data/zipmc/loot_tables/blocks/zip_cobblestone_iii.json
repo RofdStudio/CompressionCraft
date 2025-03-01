@@ -10,7 +10,7 @@
       ],
       "entries": [
         {
-          "type": "minecraft;item",
+          "type": "minecraft:item",
           "name": "zipmc:zip_cobblestone_iii"
         }
       ],

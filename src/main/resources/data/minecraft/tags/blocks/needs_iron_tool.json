@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "zipmc:zip_stone_iv",
+    "zipmc:zip_stone_v",
+    "zipmc:zip_stone_vi",
+    "zipmc:zip_cobblestone_iv",
+    "zipmc:zip_cobblestone_v",
+    "zipmc:zip_cobblestone_vi"
+  ]
+}

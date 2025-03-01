@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "zipmc:zip_stone_i",
+    "zipmc:zip_stone_ii",
+    "zipmc:zip_stone_iii",
+    "zipmc:zip_stone_iv",
+    "zipmc:zip_stone_v",
+    "zipmc:zip_stone_vi",
+    "zipmc:zip_stone_vii",
+    "zipmc:zip_stone_viii",
+    "zipmc:zip_stone_viiii",
+    "zipmc:zip_cobblestone_i",
+    "zipmc:zip_cobblestone_ii",
+    "zipmc:zip_cobblestone_iii",
+    "zipmc:zip_cobblestone_iv",
+    "zipmc:zip_cobblestone_v",
+    "zipmc:zip_cobblestone_vi",
+    "zipmc:zip_cobblestone_vii",
+    "zipmc:zip_cobblestone_viii",
+    "zipmc:zip_cobblestone_viiii"
+  ]
+}

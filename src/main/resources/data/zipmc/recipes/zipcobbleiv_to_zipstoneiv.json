@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "iron_ingot",
+  "ingredient": {
+    "item": "zipmc:zip_cobblestone_iv"
+  },
+  "result": "zipmc:zip_stone_iv"
+}
