@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "zipmc:block/zip_iron_block_iii"
+  }
+}

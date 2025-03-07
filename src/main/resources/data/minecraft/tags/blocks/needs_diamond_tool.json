@@ -6,6 +6,27 @@
     "zipmc:zip_stone_viiii",
     "zipmc:zip_cobblestone_vii",
     "zipmc:zip_cobblestone_viii",
-    "zipmc:zip_cobblestone_viiii"
+    "zipmc:zip_cobblestone_viiii",
+    "zipmc:zip_iron_block_iv",
+    "zipmc:zip_iron_block_v",
+    "zipmc:zip_iron_block_vi",
+    "zipmc:zip_gold_block_iv",
+    "zipmc:zip_gold_block_v",
+    "zipmc:zip_gold_block_vi",
+    "zipmc:zip_diamond_block_iv",
+    "zipmc:zip_diamond_block_v",
+    "zipmc:zip_diamond_block_vi",
+    "zipmc:zip_emerald_block_iv",
+    "zipmc:zip_emerald_block_v",
+    "zipmc:zip_emerald_block_vi",
+    "zipmc:zip_netherite_block_i",
+    "zipmc:zip_netherite_block_ii",
+    "zipmc:zip_netherite_block_iii",
+    "zipmc:zip_redstone_block_iv",
+    "zipmc:zip_redstone_block_v",
+    "zipmc:zip_redstone_block_vi",
+    "zipmc:zip_redstone_block_vii",
+    "zipmc:zip_redstone_block_viii",
+    "zipmc:zip_redstone_block_viiii"
   ]
 }

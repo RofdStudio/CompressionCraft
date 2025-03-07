@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "zipmc:zip_iron_block_vii",
+    "zipmc:zip_iron_block_viii",
+    "zipmc:zip_iron_block_viiii",
+    "zipmc:zip_gold_block_vii",
+    "zipmc:zip_gold_block_viii",
+    "zipmc:zip_gold_block_viiii",
+    "zipmc:zip_diamond_block_vii",
+    "zipmc:zip_diamond_block_viii",
+    "zipmc:zip_diamond_block_viiii",
+    "zipmc:zip_emerald_block_vii",
+    "zipmc:zip_emerald_block_viii",
+    "zipmc:zip_emerald_block_viiii",
+    "zipmc:zip_netherite_block_iv",
+    "zipmc:zip_netherite_block_v",
+    "zipmc:zip_netherite_block_vi",
+    "zipmc:zip_netherite_block_vii",
+    "zipmc:zip_netherite_block_viii",
+    "zipmc:zip_netherite_block_viiii"
+  ]
+}

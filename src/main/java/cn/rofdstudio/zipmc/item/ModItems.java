@@ -56,6 +56,17 @@ public class ModItems {
     public static final Item ZIP_NETHERITE_VII = registerItems("zip_netherite_vii", new Item(new FabricItemSettings()));
     public static final Item ZIP_NETHERITE_VIII = registerItems("zip_netherite_viii", new Item(new FabricItemSettings()));
     public static final Item ZIP_NETHERITE_VIIII = registerItems("zip_netherite_viiii", new Item(new FabricItemSettings()));
+    public static final Item ZIP_REDSTONE_I = registerItems("zip_redstone_i", new Item(new FabricItemSettings()));
+    public static final Item ZIP_REDSTONE_II = registerItems("zip_redstone_ii", new Item(new FabricItemSettings()));
+    public static final Item ZIP_REDSTONE_III = registerItems("zip_redstone_iii", new Item(new FabricItemSettings()));
+    public static final Item ZIP_REDSTONE_IV = registerItems("zip_redstone_iv", new Item(new FabricItemSettings()));
+    public static final Item ZIP_REDSTONE_V = registerItems("zip_redstone_v", new Item(new FabricItemSettings()));
+    public static final Item ZIP_REDSTONE_VI = registerItems("zip_redstone_vi", new Item(new FabricItemSettings()));
+    public static final Item ZIP_REDSTONE_VII = registerItems("zip_redstone_vii", new Item(new FabricItemSettings()));
+    public static final Item ZIP_REDSTONE_VIII = registerItems("zip_redstone_viii", new Item(new FabricItemSettings()));
+    public static final Item ZIP_REDSTONE_VIIII = registerItems("zip_redstone_viiii", new Item(new FabricItemSettings()));
+
+    public static final Item ZIP_UPGRADE = registerItems("zip_upgrade", new Item(new FabricItemSettings()));
     public static final Item IRON_PLATE = registerItems("iron_plate", new Item(new FabricItemSettings()));//此单行为物品item注册语句，注册物品为zip_stone_I
 
     private static void addItemsToItemGroup(FabricItemGroupEntries fabricItemGroupEntries) {
@@ -104,6 +115,16 @@ public class ModItems {
         fabricItemGroupEntries.add(ZIP_NETHERITE_VII);
         fabricItemGroupEntries.add(ZIP_NETHERITE_VIII);
         fabricItemGroupEntries.add(ZIP_NETHERITE_VIIII);
+        fabricItemGroupEntries.add(ZIP_REDSTONE_I);
+        fabricItemGroupEntries.add(ZIP_REDSTONE_II);
+        fabricItemGroupEntries.add(ZIP_REDSTONE_III);
+        fabricItemGroupEntries.add(ZIP_REDSTONE_IV);
+        fabricItemGroupEntries.add(ZIP_REDSTONE_V);
+        fabricItemGroupEntries.add(ZIP_REDSTONE_VI);
+        fabricItemGroupEntries.add(ZIP_REDSTONE_VII);
+        fabricItemGroupEntries.add(ZIP_REDSTONE_VIII);
+        fabricItemGroupEntries.add(ZIP_REDSTONE_VIIII);
+        fabricItemGroupEntries.add(ZIP_UPGRADE);
         fabricItemGroupEntries.add(IRON_PLATE);
     }
     private static Item registerItems(String name, Item item) {

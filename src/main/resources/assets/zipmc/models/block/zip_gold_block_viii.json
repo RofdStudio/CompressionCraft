@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "zipmc:block/zip_gold_block_viii"
+  }
+}
