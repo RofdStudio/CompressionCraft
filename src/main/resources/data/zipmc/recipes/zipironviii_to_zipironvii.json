@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zipmc:zip_iron_viii"
+    }
+  ],
+  "result": {
+    "item": "zipmc:zip_iron_vii",
+    "count": 9
+  }
+}

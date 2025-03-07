@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "categroy": "building",
+  "pattern":[
+    "###",
+    "#A#",
+    "###"
+  ] ,
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "A": {
+      "item": "zipmc:zip_upgrade"
+    }
+  },
+  "result": {
+    "item": "zipmc:zip_diamond_i"
+  }
+}
