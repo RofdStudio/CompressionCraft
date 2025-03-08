@@ -4,8 +4,7 @@ import cn.rofdstudio.zipmc.ZipMc;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -65,9 +64,21 @@ public class ModItems {
     public static final Item ZIP_REDSTONE_VII = registerItems("zip_redstone_vii", new Item(new FabricItemSettings()));
     public static final Item ZIP_REDSTONE_VIII = registerItems("zip_redstone_viii", new Item(new FabricItemSettings()));
     public static final Item ZIP_REDSTONE_VIIII = registerItems("zip_redstone_viiii", new Item(new FabricItemSettings()));
-
     public static final Item ZIP_UPGRADE = registerItems("zip_upgrade", new Item(new FabricItemSettings()));
     public static final Item IRON_PLATE = registerItems("iron_plate", new Item(new FabricItemSettings()));//此单行为物品item注册语句，注册物品为zip_stone_I
+    public static final Item COMPRESSED_TOOL_MATERIALS = registerItems( "compressed_tool_materials",new Item(new FabricItemSettings()));
+    public static final Item DOUBLE_COMPRESSED_TOOL_MATERIALS = registerItems( "double_compressed_tool_materials",new Item(new FabricItemSettings()));
+    public static final Item TRIPLE_COMPRESSED_TOOL_MATERIALS = registerItems( "triple_compressed_tool_materials",new Item(new FabricItemSettings()));
+    public static final Item COMPRESSED_SWORD = registerItems("compressed_sword",new SwordItem(ModToolMaterials.COMPRESSED_TOOL_MATERIALS,
+            15,-2.5F,new Item.Settings()));
+    public static final Item COMPRESSED_SHOVEL = registerItems("compressed_shovel",new ShovelItem(ModToolMaterials.COMPRESSED_TOOL_MATERIALS,
+            3,-2.0F,new Item.Settings()));
+    public static final Item COMPRESSED_PICKAXE = registerItems("compressed_pickaxe",new PickaxeItem(ModToolMaterials.COMPRESSED_TOOL_MATERIALS,
+            5,-2.0F,new Item.Settings()));
+    public static final Item COMPRESSED_AXE = registerItems("compressed_axe",new AxeItem(ModToolMaterials.COMPRESSED_TOOL_MATERIALS,
+            18,-1.5F,new Item.Settings()));
+    public static final Item COMPRESSED_HOE = registerItems("compressed_hoe",new HoeItem(ModToolMaterials.COMPRESSED_TOOL_MATERIALS,
+            3,-2.0F,new Item.Settings()));
 
     private static void addItemsToItemGroup(FabricItemGroupEntries fabricItemGroupEntries) {
         fabricItemGroupEntries.add(ZIP_IRON_I);
