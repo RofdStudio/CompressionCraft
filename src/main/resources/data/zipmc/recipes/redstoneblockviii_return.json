@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zipmc:zip_redstone_block_viii"
+    }
+  ],
+  "result": {
+    "item": "zipmc:zip_redstone_viii",
+    "count": 9
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zipmc:zip_emerald_iii"
+    }
+  ],
+  "result": {
+    "item": "zipmc:zip_emerald_ii",
+    "count": 9
+  }
+}

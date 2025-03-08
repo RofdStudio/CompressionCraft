@@ -3,18 +3,15 @@
   "categroy": "building",
   "pattern":[
     "###",
-    "#A#",
+    "###",
     "###"
   ] ,
   "key": {
     "#": {
-      "item": "zipmc:zip_emerald_viii"
-    },
-    "A": {
-      "item": "zipmc:zip_upgrade"
+      "item": "zipmc:zip_gold_viiii"
     }
   },
   "result": {
-    "item": "zipmc:zip_emerald_viiii"
+    "item": "zipmc:zip_gold_block_viiii"
   }
 }

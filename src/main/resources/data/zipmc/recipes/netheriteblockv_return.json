@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zipmc:zip_netherite_block_v"
+    }
+  ],
+  "result": {
+    "item": "zipmc:zip_netherite_v",
+    "count": 9
+  }
+}

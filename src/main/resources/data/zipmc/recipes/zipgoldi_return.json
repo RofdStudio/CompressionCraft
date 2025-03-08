@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "zipmc:zip_gold_i"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gold_ingot",
+    "count": 9
+  }
+}
